@@ -1,5 +1,7 @@
-# 🔐 Cybersecurity Lab Environment Setup
-**Building an isolated virtual lab for penetration testing and ethical hacking practice**
+<div align="center">
+
+  ## 🔐 Cybersecurity Lab Environment Setup
+## Building an isolated virtual lab for penetration testing and ethical hacking practice
 </div>
 
 <p align="center">
@@ -14,12 +16,10 @@
   <img src="https://img.shields.io/badge/Kali%20Linux-404040?style=flat-square&labelColor=C00000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Waqas%20Karim%20CCIE-C00000?style=flat-square" />
+  </p>
+<p align="center">
+  <img src="kalivm.jpg" alt="Kali Linux VM" width="600">
 </p>
-## 📸 Lab Evidence
-![]kalivm.jpg](image%201/kalivm.jpg)
-
-![](kalivm.jpg)
 
 ## 📌 Project Overview
 
@@ -60,6 +60,12 @@ It can be used for activities such as:
     Security-tool experimentation
 
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
+## 🏗️ Lab Architecture
+
+![](1-screenshot-title-image.png)
+
+
+Additional target machines can be added to the same virtual network in future projects.
 
 ## 🛠️ Lab Configuration
 
