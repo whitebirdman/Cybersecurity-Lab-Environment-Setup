@@ -148,6 +148,9 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 ### Step 6. Create a Clean VM Snapshot
 A clean VirtualBox snapshot was created after completing the initial Kali Linux and network configuration. This snapshot provides a known-good baseline that can be restored if future cybersecurity exercises modify or damage the VM configuration.
 
+![](5-Screenshot.png)
+
+
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
