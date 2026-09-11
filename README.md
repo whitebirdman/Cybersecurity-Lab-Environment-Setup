@@ -100,7 +100,17 @@ VirtualBox was installed as the hypervisor.
 
 A dedicated NAT Network was created in VirtualBox.
 
-Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
+### 🌐 Network Configuration
+
+| ⚙️ Configuration | 📝 Value      |
+| ---------------- | ------------- |
+| 🌐 Network Name  | `NatNetwork`  |
+| 📡 IPv4 Prefix   | `10.0.0.0/24` |
+| 🔄 DHCP          | Enabled       |
+| 🌍 IPv6          | Disabled      |
+
+
+![](2-screenshot-network-settings-1.png)
 
 A NAT Network was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -119,8 +129,8 @@ Adapter Type: Intel PRO/1000 MT Desktop
 
 The VM was allocated:
 
-RAM: 4000 MB
-
+RAM: 2048 MB
+![](3-screenshot-kali-linux.png)
 ### Step 5. Configure the Kali Linux Network
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
@@ -133,18 +143,14 @@ Gateway: 10.0.0.1
 DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
+![](4-screenshot-kali-network-settings.png)
 
 ### Step 6. Create a Clean VM Snapshot
+A clean VirtualBox snapshot was created after completing the initial Kali Linux and network configuration. This snapshot provides a known-good baseline that can be restored if future cybersecurity exercises modify or damage the VM configuration.
 
-After completing the initial configuration, a VirtualBox snapshot was created.
-
-Example snapshot name:
-
-Clean Kali - Network Setup
-
-The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
+
 
 ## 🔎 Lab Verification
 
